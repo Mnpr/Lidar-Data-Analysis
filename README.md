@@ -1,6 +1,10 @@
 # Lidar Data Analysis
 
-**Contents**
+**Raw Input**
+
+Velodyne Puck Capture (`x.pcap`)
+
+**Modules**
 
 - [ ] [[Data Preprocessing](./data_preprocessing/)]
 - [ ] [[Data Formatting](./data_formatting/)]
@@ -8,13 +12,14 @@
 - [ ] [[Data Loaders ](./data_loaders)]
 - [ ] [[ROS Modules](./ros2/)]
 
-**Raw Input**
+**Information Flow**
 
-Velodyne Puck Capture (`x.pcap`)
+![](./assets/data_processing_n_annotation.png)
 
 **Output**
 
-KITTI format compatible Lidar format : (`x.bin`)
+- KITTI format compatible Lidar format : (`x.bin`)
+- Annotation files: (`subset_of_x.pcd`)
 
 **References**
 
