@@ -38,9 +38,8 @@ for file_name in os.listdir(data_dir):
             if len(curLine[i])==0:
                 continue
             
-            if i == 3:                                                # intensity
-                parsedata = struct.pack("f",float(curLine[i]))        ## 这里可选择intensity用浮点数形式还是整型格式  you can choose intensity in float or int format
-                # parsedata = struct.pack("i",int(curLine[i]))
+            if i == 3:                                                
+                parsedata = struct.pack("f",float(curLine[i]))        ## intensity : float or int
 
                 bin_file.write(parsedata)
             else:                                                     
