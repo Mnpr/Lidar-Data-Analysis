@@ -10,7 +10,7 @@ Velodyne Puck Capture (`x.pcap`)
 - [[Data Formatting](./data_formatting/)]
 - [[Data Annotation](./data_annotation/)]
 - [[Data Visualization ](./data_visualization)]
-- [[ROS Modules](./ros2/)]
+- [[ROS Modules](./ros_modules/)]
 
 **Information Flow**
 
