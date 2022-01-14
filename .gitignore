@@ -1,7 +1,8 @@
-# Data
+# Ignore dirs
 data/
 devel/
 build/
+latte/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
