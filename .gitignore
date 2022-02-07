@@ -3,6 +3,11 @@ data/
 devel/
 build/
 latte/
+install/
+log/
+.vscode/
+
+# ros_modules/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
